@@ -1,6 +1,12 @@
+//Función para calcular el exponente de un número
+function exponente(base, exponente) {
+    return base ** exponente;
+}
+
+//Función para calcular el factorial de un número
 function factorial(num) {
     var resultado = 1;
-    // Multiplicamos el resultado por cada número desde 1 hasta num
+
     for (var i = 1; i <= num; i++) {
         resultado *= i;
     }
