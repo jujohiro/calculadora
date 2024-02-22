@@ -1,3 +1,8 @@
+// Función para restar dos números
+function restar(num1, num2) {
+    return num1 - num2;
+  }
+console.log(restar(5,3));
 // Función para sumar dos números
 function sumar(num1, num2) {
     return num1 + num2;
