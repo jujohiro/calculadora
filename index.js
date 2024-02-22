@@ -1,8 +1,12 @@
+// Función para dividir dos números
+function dividir(num1, num2) {
+    return num1 / num2;
+  }
 // Función para multiplicar dos números
 function multiplicar(num1, num2) {
     return num1 * num2;
   }
-console.log(multiplicar(3, 2));
+
 
 // Función para restar dos números
 function restar(num1, num2) {
