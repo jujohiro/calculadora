@@ -1,3 +1,11 @@
+function factorial(num) {
+    var resultado = 1;
+    // Multiplicamos el resultado por cada número desde 1 hasta num
+    for (var i = 1; i <= num; i++) {
+        resultado *= i;
+    }
+    return resultado;
+}
 // Función para dividir dos números
 function dividir(num1, num2) {
     return num1 / num2;
