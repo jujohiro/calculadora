@@ -1,3 +1,7 @@
+//Función para calcular la raíz cuadrada de un número
+function raizCuadrada(numero) {
+    return Math.sqrt(numero);
+}
 //Función para calcular el exponente de un número
 function exponente(base, exponente) {
     return base ** exponente;
